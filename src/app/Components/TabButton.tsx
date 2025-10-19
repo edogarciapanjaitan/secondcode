@@ -4,7 +4,7 @@ interface TabButtonProps {
     active: boolean;
     selectTab: () => void; 
     children: React.ReactNode; 
-}
+};
 
 const TabButton = ({ active, selectTab, children }: TabButtonProps) => {
   const buttonClasses = active ? "text-white" : "text-[#ADB7BE]";

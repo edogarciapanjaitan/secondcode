@@ -3,9 +3,10 @@
 import React from "react"
 import { TypeAnimation } from "react-type-animation";
 
+
 const HeroSection = () => {
     return (
-        <section>
+        <section id="home">
             <div className="grid grid-cols-1 sm:grid-cols-12">
                 <div className="col-span-7 place-self-center text-center sm:text-left">
                     <h1 className="text-white mb-4 text-4xl sm-text-5xl lg:text-6xl font-extrabold">
@@ -33,8 +34,10 @@ const HeroSection = () => {
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-slate-600 to-slate-300">Building scalable and high-performance web solutions for your business needs</span>
                     </p>
                     <div>
-                        <button className="px-6 py-3 rounded-full mr-4 bg-gradient-to-br from-slate-600 via-slate-400 to-slate-300 hover:bg-slate-200 text-black">Contact Me</button>
-                        <button className="px-6 py-3 rounded-full bg-gradient-to-br from-slate-600 via-slate-400 to-slate-300 hover:bg-slate-800 text-black border border-white mt-3">Portofolio</button>
+                        <button className="px-6 py-3 rounded-full mr-4 bg-gradient-to-br from-slate-600 via-slate-400 to-slate-300  text-black hover:cursor-pointer hover:bg-slate-200">
+                            <a href="#contact">Contact Me</a>
+                        </button>
+                        <button className="px-6 py-3 rounded-full bg-gradient-to-br from-slate-600 via-slate-400 to-slate-300 hover:bg-slate-800 text-black border border-white mt-3 hover:cursor-pointer">Portofolio</button>
                     </div>
                 </div>
                 <div className="col-span-5 place-self-center mt-4 lg:mt-0">
