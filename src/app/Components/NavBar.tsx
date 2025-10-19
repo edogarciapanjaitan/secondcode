@@ -9,7 +9,7 @@ const NavBar = () => {
            
                 <h1 className="ml-9 text-2xl font-semibold">
                     <button>
-                        <a href="/">Edo Garcia</a>
+                        <a href="#">Edo Garcia</a>
                     </button>
                 </h1>
             
