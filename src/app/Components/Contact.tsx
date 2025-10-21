@@ -19,7 +19,7 @@ const Contact = () => {
                     </div>
                     <div className="flex flex-col gap-2">
                         <label htmlFor="message" className="font-semibold">Message</label>
-                        <textarea name="message" id="message" cols="45" rows="7" placeholder="Message..." className="border border-zinc-500 p-2 rounded-md" required></textarea>
+                        <textarea name="message" id="message"  placeholder="Message..." className="border border-zinc-500 p-2 rounded-md" required></textarea>
                     </div>
                     <div className="text-center">
                        <button type="submit" className="bg-violet-700 rounded-md p-2 hover:bg-violet-600 w-full cursor-pointer">Send Message</button>
